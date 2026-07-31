@@ -1,0 +1,18 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Node / Dependencies (if added in future)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vercel Deployment artifacts
+.vercel/
+
+# Environment variables & Local logs
+.env
+.env.local
+*.log
