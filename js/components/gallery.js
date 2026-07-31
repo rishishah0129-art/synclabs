@@ -15,8 +15,8 @@ function renderGallery() {
 
           <div class="grid-2">
             ${INTERIOR_DATA.portfolio.map(item => {
-              const isFav = state.isFavorite(item.id);
-              return `
+      const isFav = state.isFavorite(item.id);
+      return `
                 <div class="product-card glass-card">
                   <div class="product-thumb">
                     <img src="${item.img}" alt="${item.title}">
@@ -31,13 +31,13 @@ function renderGallery() {
                     <div class="product-footer">
                       <span class="product-price">Turnkey Finish</span>
                       <button class="btn btn-secondary btn-estimate-look" data-title="${item.title}">
-                        ${getIcon('calculator')} Get Estimate
+                        ${getIcon('calculator')} Get Estimat
                       </button>
                     </div>
                   </div>
                 </div>
               `;
-            }).join('')}
+    }).join('')}
           </div>
         </div>
       </section>
@@ -55,8 +55,8 @@ function renderGallery() {
 
           <div class="grid-2">
             ${DIGITAL_DATA.marketplace.map(item => {
-              const isFav = state.isFavorite(item.id);
-              return `
+      const isFav = state.isFavorite(item.id);
+      return `
                 <div class="product-card glass-card">
                   <div class="product-thumb">
                     <img src="${item.img}" alt="${item.title}">
@@ -77,7 +77,7 @@ function renderGallery() {
                   </div>
                 </div>
               `;
-            }).join('')}
+    }).join('')}
           </div>
         </div>
       </section>
