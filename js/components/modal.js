@@ -79,7 +79,7 @@ function renderModals() {
         <button class="modal-close-btn" id="close-modal-breakdown">${getIcon('x')}</button>
         <div class="modal-header">
           <h2 class="modal-title">${isInterior ? 'Itemized Interior Quote Breakdown' : 'Digital Scope Estimate Breakdown'}</h2>
-          <p>TruSpace Transparent Cost Guarantee • Zero Surprise Costs</p>
+          <p>StudioSyncLabs Transparent Cost Guarantee • Zero Surprise Costs</p>
         </div>
 
         <div id="breakdown-content-area">

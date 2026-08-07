@@ -13,7 +13,7 @@ function renderNavbar() {
             ${isInterior ? getIcon('home') : getIcon('layers')}
           </div>
           <div>
-            <span>${isInterior ? 'TruSpace' : 'Synclabs'}</span><span style="color:var(--color-primary)">.</span>
+            <span>${isInterior ? 'StudioSyncLabs' : 'Digital Studio'}</span><span style="color:var(--color-primary)">.</span>
           </div>
           <span class="brand-tag">${isInterior ? 'Interiors' : 'Digital Studio'}</span>
         </a>

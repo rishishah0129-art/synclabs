@@ -52,9 +52,9 @@ function renderFooter() {
           <div>
             <div class="brand-logo" style="margin-bottom:1rem;">
               <div class="logo-icon-wrapper">${isInterior ? getIcon('home') : getIcon('layers')}</div>
-              <span>${isInterior ? 'TruSpace' : 'Synclabs'}</span>.
+              <span>${isInterior ? 'StudioSyncLabs' : 'Digital Studio'}</span>.
             </div>
-            <p style="font-size:0.9rem;">${isInterior ? 'India & International transparent home interior design platform inspired by Truww. Real pricing, verified architects.' : 'World-class digital product design studio. Building SaaS, mobile apps, and tokenized design systems.'}</p>
+            <p style="font-size:0.9rem;">${isInterior ? 'India & International transparent home interior design platform. Real pricing, verified architects.' : 'World-class digital product design studio. Building SaaS, mobile apps, and tokenized design systems.'}</p>
           </div>
 
           <div>
@@ -86,8 +86,8 @@ function renderFooter() {
 
           <div>
             <h4 style="margin-bottom:1rem;">Contact Studio</h4>
-            <p style="font-size:0.9rem; margin-bottom:0.5rem;">${getIcon('phone')} +1 (800) 555-TRUSPACE</p>
-            <p style="font-size:0.9rem; margin-bottom:1rem;">${getIcon('mail')} hello@synclabs-truspace.com</p>
+            <p style="font-size:0.9rem; margin-bottom:0.5rem;">${getIcon('phone')} +1 (800) 555-STUDIO</p>
+            <p style="font-size:0.9rem; margin-bottom:1rem;">${getIcon('mail')} hello@studiosynclabs.com</p>
             <button class="btn btn-primary" style="width:100%;" id="btn-footer-consultation">
               ${isInterior ? 'Book Home Consultation' : 'Schedule Discovery Call'}
             </button>
@@ -95,7 +95,7 @@ function renderFooter() {
         </div>
 
         <div style="padding-top:2rem; border-top:1px solid var(--border-color); text-align:center; font-size:0.85rem; color:var(--text-muted);">
-          &copy; 2026 Synclabs & TruSpace Dual Platform. All Rights Reserved. Built with Modern Web Excellence.
+          &copy; 2026 StudioSyncLabs Dual Platform. All Rights Reserved. Built with Modern Web Excellence.
         </div>
       </div>
     </footer>

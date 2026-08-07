@@ -10,7 +10,7 @@ function renderGallery() {
           <div class="section-header">
             <span class="section-subtitle">${getIcon('eye')} Portfolio Lookbook</span>
             <h2 class="section-title">Explore Verified Interior Designs</h2>
-            <p class="section-desc">Browse real homes designed and delivered by TruSpace interior architects.</p>
+            <p class="section-desc">Browse real homes designed and delivered by StudioSyncLabs interior architects.</p>
           </div>
 
           <div class="grid-2">
