@@ -86,7 +86,7 @@ function renderFooter() {
 
           <div>
             <h4 style="margin-bottom:1rem;">Contact Studio</h4>
-            <p style="font-size:0.9rem; margin-bottom:0.5rem;">${getIcon('phone')} +1 (800) 555-STUDIO</p>
+            <p style="font-size:0.9rem; margin-bottom:0.5rem;">${getIcon('phone')} +91-9999276696</p>
             <p style="font-size:0.9rem; margin-bottom:1rem;">${getIcon('mail')} hello@studiosynclabs.com</p>
             <button class="btn btn-primary" style="width:100%;" id="btn-footer-consultation">
               ${isInterior ? 'Book Home Consultation' : 'Schedule Discovery Call'}
