@@ -90,7 +90,7 @@ function renderEstimators() {
                 <span class="price-label">Estimated Total Investment (Incl. Taxes & Installation)</span>
                 <span class="price-amount" id="interior-cost-display">${formattedTotal}</span>
               </div>
-              <div style="display:flex; gap:1rem;">
+              <div class="estimator-actions">
                 <button class="btn btn-secondary" id="btn-view-breakdown">
                   ${getIcon('sliders')} View Itemized Breakdown
                 </button>
@@ -173,7 +173,7 @@ function renderEstimators() {
                 <span class="price-label">Estimated Design Investment</span>
                 <span class="price-amount">${formattedDigital}</span>
               </div>
-              <div style="display:flex; gap:1rem;">
+              <div class="estimator-actions">
                 <button class="btn btn-secondary" id="btn-digital-breakdown">
                   ${getIcon('sliders')} Scope Specs
                 </button>

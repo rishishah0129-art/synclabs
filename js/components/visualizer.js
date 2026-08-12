@@ -8,11 +8,8 @@ let visualizerState = {
 };
 
 function renderVisualizer() {
-  const isInterior = state.businessMode === 'interior';
-  if (!isInterior) return '';
-
-  return `
-    <section class="section-padding" id="visualizer">
+  // Section commented out per request: Customize Walls, Flooring & Finishes
+  return `<!-- <section class="section-padding" id="visualizer">
       <div class="container">
         <div class="section-header">
           <span class="section-subtitle">${getIcon('palette')} 3D Interactive Design Studio</span>
@@ -28,7 +25,6 @@ function renderVisualizer() {
           <div class="visualizer-sidebar">
             <h3 style="font-size:1.2rem; margin-bottom:0.5rem;">Material Swatches</h3>
 
-            <!-- Wall Color Swatches -->
             <div>
               <div class="swatch-group-title">Wall Accent Paint</div>
               <div class="swatch-row">
@@ -40,7 +36,6 @@ function renderVisualizer() {
               </div>
             </div>
 
-            <!-- Floor Swatches -->
             <div>
               <div class="swatch-group-title">Flooring Material</div>
               <div class="swatch-row">
@@ -50,7 +45,6 @@ function renderVisualizer() {
               </div>
             </div>
 
-            <!-- Cabinet Finishes -->
             <div>
               <div class="swatch-group-title">Modular Cabinet Finish</div>
               <div class="swatch-row">
@@ -61,7 +55,6 @@ function renderVisualizer() {
               </div>
             </div>
 
-            <!-- Lighting Atmosphere -->
             <div>
               <div class="swatch-group-title">Lighting Ambiance</div>
               <div class="swatch-row">
@@ -76,8 +69,7 @@ function renderVisualizer() {
           </div>
         </div>
       </div>
-    </section>
-  `;
+    </section> -->`;
 }
 
 function initRoomCanvas() {

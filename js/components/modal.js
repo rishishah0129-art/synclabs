@@ -10,7 +10,28 @@ function renderModals() {
         <button class="modal-close-btn" id="close-modal-consultation">${getIcon('x')}</button>
         <div class="modal-header">
           <h2 class="modal-title">${isInterior ? 'Schedule Free Home Design Visit' : 'Schedule Digital UX Discovery Call'}</h2>
-          <p>${isInterior ? 'Connect with a senior interior architect at your home or our experience center.' : 'Discuss product requirements, architecture, and timeline with our UX lead.'}</p>
+          <p>${isInterior ? 'Connect with a senior interior architect at studio sync labs.' : 'Discuss product requirements, architecture, and timeline with our team at studio sync labs.'}</p>
+        </div>
+
+        <!-- Direct Contact Banner -->
+        <div style="background:var(--bg-main); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:1rem; margin-bottom:1.5rem;">
+          <div style="font-size:0.85rem; font-weight:700; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:0.5rem;">
+            Direct Connect With Primary Leads
+          </div>
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:0.75rem;">
+            <a href="tel:+919810766378" style="display:flex; flex-direction:column; background:var(--bg-surface); padding:0.6rem 0.8rem; border-radius:var(--radius-sm); border:1px solid var(--border-color); text-decoration:none;">
+              <span style="font-size:0.8rem; color:var(--text-muted); font-weight:500;">Anand Mohan Shah</span>
+              <span style="font-size:0.9rem; font-weight:700; color:var(--color-primary); display:flex; align-items:center; gap:0.3rem;">
+                ${getIcon('phone')} +91 98107 66378
+              </span>
+            </a>
+            <a href="tel:+919999276696" style="display:flex; flex-direction:column; background:var(--bg-surface); padding:0.6rem 0.8rem; border-radius:var(--radius-sm); border:1px solid var(--border-color); text-decoration:none;">
+              <span style="font-size:0.8rem; color:var(--text-muted); font-weight:500;">Rishi Shah</span>
+              <span style="font-size:0.9rem; font-weight:700; color:var(--color-primary); display:flex; align-items:center; gap:0.3rem;">
+                ${getIcon('phone')} +91 99992 76696
+              </span>
+            </a>
+          </div>
         </div>
 
         <form id="consultation-form">
@@ -21,7 +42,7 @@ function renderModals() {
             </div>
             <div class="form-group">
               <label class="form-label">Phone Number</label>
-              <input type="tel" class="form-input" placeholder="+1 (555) 000-0000" required>
+              <input type="tel" class="form-input" placeholder="+91 98107 66378" required>
             </div>
             <div class="form-group form-group-full">
               <label class="form-label">Email Address</label>
@@ -79,14 +100,14 @@ function renderModals() {
         <button class="modal-close-btn" id="close-modal-breakdown">${getIcon('x')}</button>
         <div class="modal-header">
           <h2 class="modal-title">${isInterior ? 'Itemized Interior Quote Breakdown' : 'Digital Scope Estimate Breakdown'}</h2>
-          <p>StudioSyncLabs Transparent Cost Guarantee • Zero Surprise Costs</p>
+          <p>studio sync labs Transparent Cost Guarantee • Zero Surprise Costs</p>
         </div>
 
         <div id="breakdown-content-area">
           <!-- Populated dynamically by JS -->
         </div>
 
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:2rem;">
+        <div class="modal-breakdown-actions">
           <button class="btn btn-secondary" onclick="window.print();">
             ${getIcon('download')} Print / Save PDF Quote
           </button>

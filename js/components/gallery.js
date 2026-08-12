@@ -10,7 +10,7 @@ function renderGallery() {
           <div class="section-header">
             <span class="section-subtitle">${getIcon('eye')} Portfolio Lookbook</span>
             <h2 class="section-title">Explore Verified Interior Designs</h2>
-            <p class="section-desc">Browse real homes designed and delivered by StudioSyncLabs interior architects.</p>
+            <p class="section-desc">Browse real homes designed and delivered by studio sync labs interior architects.</p>
           </div>
 
           <div class="grid-2">
@@ -21,18 +21,15 @@ function renderGallery() {
                   <div class="product-thumb">
                     <img src="${item.img}" alt="${item.title}">
                     <span class="badge product-tag">${item.style}</span>
-                    <button class="btn-icon-only product-fav-btn" data-fav-id="${item.id}">
-                      ${isFav ? getIcon('heartFilled') : getIcon('heart')}
-                    </button>
                   </div>
                   <div class="product-details">
                     <h3 class="product-title">${item.title}</h3>
                     <p class="product-desc">${item.category} • ${item.area}</p>
                     <div class="product-footer">
                       <span class="product-price">Turnkey Finish</span>
-                      <button class="btn btn-secondary btn-estimate-look" data-title="${item.title}">
-                        ${getIcon('calculator')} Get Estimat
-                      </button>
+                      <!-- <button class="btn btn-secondary btn-estimate-look" data-title="${item.title}">
+                        ${getIcon('calculator')} Get Estimate
+                      </button> -->
                     </div>
                   </div>
                 </div>
@@ -61,9 +58,6 @@ function renderGallery() {
                   <div class="product-thumb">
                     <img src="${item.img}" alt="${item.title}">
                     <span class="badge product-tag">${item.category}</span>
-                    <button class="btn-icon-only product-fav-btn" data-fav-id="${item.id}">
-                      ${isFav ? getIcon('heartFilled') : getIcon('heart')}
-                    </button>
                   </div>
                   <div class="product-details">
                     <h3 class="product-title">${item.title}</h3>

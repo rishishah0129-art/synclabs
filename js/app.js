@@ -52,9 +52,9 @@ function renderFooter() {
           <div>
             <div class="brand-logo" style="margin-bottom:1rem;">
               <div class="logo-icon-wrapper">${isInterior ? getIcon('home') : getIcon('layers')}</div>
-              <span>${isInterior ? 'StudioSyncLabs' : 'Digital Studio'}</span>.
+              <span>studio sync labs</span>.
             </div>
-            <p style="font-size:0.9rem;">${isInterior ? 'India & International transparent home interior design platform. Real pricing, verified architects.' : 'World-class digital product design studio. Building SaaS, mobile apps, and tokenized design systems.'}</p>
+            <p style="font-size:0.9rem;">${isInterior ? 'Transparent home interior design studio & architecture. Real pricing, verified architects, and turnkey project delivery.' : 'World-class digital product design studio. Building SaaS products, mobile apps, and tokenized design systems.'}</p>
           </div>
 
           <div>
@@ -66,7 +66,7 @@ function renderFooter() {
                 <li><a href="#visualizer">3D Canvas Studio</a></li>
                 <li><a href="#packages">Turnkey Packages</a></li>
               ` : `
-                <li><a href="#digital-services">SaaS & Web App UX</a></li>
+                <li><a href="#digital-estimator">SaaS & Web App UX</a></li>
                 <li><a href="#digital-services">Design Systems</a></li>
                 <li><a href="#marketplace">UI Kit Marketplace</a></li>
                 <li><a href="#case-studies">UX Audits</a></li>
@@ -85,9 +85,23 @@ function renderFooter() {
           </div>
 
           <div>
-            <h4 style="margin-bottom:1rem;">Contact Studio</h4>
-            <p style="font-size:0.9rem; margin-bottom:0.5rem;">${getIcon('phone')} +91-9999276696</p>
-            <p style="font-size:0.9rem; margin-bottom:1rem;">${getIcon('mail')} hello@studiosynclabs.com</p>
+            <h4 style="margin-bottom:1rem;">Primary Contacts</h4>
+            <div style="display:flex; flex-direction:column; gap:0.75rem; font-size:0.88rem; margin-bottom:1.2rem;">
+              <div style="padding:0.75rem; background:var(--bg-main); border-radius:var(--radius-md); border:1px solid var(--border-color);">
+                <div style="font-weight:700; color:var(--text-main); margin-bottom:0.25rem;">Anand Mohan Shah</div>
+                <a href="tel:+919810766378" style="display:inline-flex; align-items:center; gap:0.4rem; color:var(--color-primary); font-weight:600;">
+                  ${getIcon('phone')} +91 98107 66378
+                </a>
+              </div>
+
+              <div style="padding:0.75rem; background:var(--bg-main); border-radius:var(--radius-md); border:1px solid var(--border-color);">
+                <div style="font-weight:700; color:var(--text-main); margin-bottom:0.25rem;">Rishi Shah</div>
+                <a href="tel:+919999276696" style="display:inline-flex; align-items:center; gap:0.4rem; color:var(--color-primary); font-weight:600;">
+                  ${getIcon('phone')} +91 99992 76696
+                </a>
+              </div>
+            </div>
+
             <button class="btn btn-primary" style="width:100%;" id="btn-footer-consultation">
               ${isInterior ? 'Book Home Consultation' : 'Schedule Discovery Call'}
             </button>
@@ -95,7 +109,7 @@ function renderFooter() {
         </div>
 
         <div style="padding-top:2rem; border-top:1px solid var(--border-color); text-align:center; font-size:0.85rem; color:var(--text-muted);">
-          &copy; 2026 StudioSyncLabs Dual Platform. All Rights Reserved. Built with Modern Web Excellence.
+          &copy; 2026 studio sync labs. All Rights Reserved. Built with Modern Web Excellence.
         </div>
       </div>
     </footer>
