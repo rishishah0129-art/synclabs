@@ -5,6 +5,7 @@ function renderShowcase() {
 
   if (isInterior) {
     return `
+      <!--
       <section class="section-padding" id="designers" style="background:var(--bg-main)">
         <div class="container">
           <div class="section-header">
@@ -32,6 +33,7 @@ function renderShowcase() {
           </div>
         </div>
       </section>
+      -->
     `;
   } else {
     // DIGITAL CASE STUDIES

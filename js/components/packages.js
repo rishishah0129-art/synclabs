@@ -24,9 +24,9 @@ function renderPackages() {
                 <li style="display:flex; gap:0.5rem; align-items:center;">${getIcon('check')} Choice of Acrylic or Laminate</li>
                 <li style="display:flex; gap:0.5rem; align-items:center;">${getIcon('check')} Quartz Countertop Included</li>
               </ul>
-              <button class="btn btn-secondary" style="width:100%;" onclick="state.showToast('Kitchen Package selected! Book consultation to proceed.');">
+              <!-- <button class="btn btn-secondary" style="width:100%;" onclick="state.showToast('Kitchen Package selected! Book consultation to proceed.');">
                 Select Package
-              </button>
+              </button> -->
             </div>
 
             <div class="glass-card" style="padding:2rem; border-color:var(--color-primary); position:relative;">
@@ -40,9 +40,9 @@ function renderPackages() {
                 <li style="display:flex; gap:0.5rem; align-items:center;">${getIcon('check')} Living Room TV Unit & Shoe Rack</li>
                 <li style="display:flex; gap:0.5rem; align-items:center;">${getIcon('check')} False Ceiling & Spotlights</li>
               </ul>
-              <button class="btn btn-primary" style="width:100%;" onclick="state.showToast('Full 2BHK Essential Package selected!');">
+              <!-- <button class="btn btn-primary" style="width:100%;" onclick="state.showToast('Full 2BHK Essential Package selected!');">
                 Select Package
-              </button>
+              </button> -->
             </div>
 
             <div class="glass-card" style="padding:2rem;">
@@ -55,9 +55,9 @@ function renderPackages() {
                 <li style="display:flex; gap:0.5rem; align-items:center;">${getIcon('check')} Custom Sofa & Dining Set</li>
                 <li style="display:flex; gap:0.5rem; align-items:center;">${getIcon('check')} Smart Home Automation Setup</li>
               </ul>
-              <button class="btn btn-secondary" style="width:100%;" onclick="state.showToast('Signature Villa Package selected!');">
+              <!-- <button class="btn btn-secondary" style="width:100%;" onclick="state.showToast('Signature Villa Package selected!');">
                 Select Package
-              </button>
+              </button> -->
             </div>
           </div>
         </div>

@@ -15,14 +15,11 @@ function renderHero() {
               Craft Your Dream Home with <span>Instant Price Transparency</span>.
             </h1>
             <p class="hero-description">
-              No hidden fees, no guessing games. Estimate your full home interior or modular kitchen cost in under 60 seconds with StudioSyncLabs. Verified designers, 10-year warranty, and 3D visual studio.
+              No hidden fees, no guessing games. Estimate your full home interior or modular kitchen cost in under 60 seconds with studio sync labs. Verified designers, 10-year warranty, and 3D visual studio.
             </p>
             <div class="hero-cta-group">
               <a href="#estimator" class="btn btn-primary">
                 ${getIcon('calculator')} Calculate Interior Cost Now
-              </a>
-              <a href="#visualizer" class="btn btn-secondary">
-                ${getIcon('palette')} Try 3D Visualizer Studio
               </a>
             </div>
 
@@ -32,9 +29,6 @@ function renderHero() {
               </div>
               <div class="trust-item">
                 ${getIcon('check')} 45-Day Delivery
-              </div>
-              <div class="trust-item">
-                ${getIcon('star')} 4.95/5 Rated (1,200+ Homes)
               </div>
             </div>
           </div>

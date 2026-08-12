@@ -10,7 +10,7 @@ function renderTransformationSlider() {
         <div class="section-header">
           <span class="section-subtitle">${getIcon('sparkles')} Room Makeovers</span>
           <h2 class="section-title">Before & After Space Transformation</h2>
-          <p class="section-desc">Drag the slider left and right to see how StudioSyncLabs transforms raw bare spaces into stunning turnkey interiors.</p>
+          <p class="section-desc">Drag the slider left and right to see how studio sync labs transforms raw bare spaces into stunning turnkey interiors.</p>
         </div>
 
         <div class="slider-container glass-card" id="before-after-slider">

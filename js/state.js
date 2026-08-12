@@ -2,7 +2,7 @@
 
 class AppState {
   constructor() {
-    this.businessMode = localStorage.getItem('synclabs_mode') || 'interior'; // 'interior' | 'digital'
+    this.businessMode = 'interior'; // Digital Products tab is hidden for now
     this.favorites = JSON.parse(localStorage.getItem('synclabs_favs') || '[]');
     this.listeners = [];
     
